@@ -1,0 +1,50 @@
+#mijnEvaluatie{
+	width: 50%;
+	margin: auto;
+	
+}
+
+#wrapper{
+	box-sizing: border-box;
+	margin: auto;
+	width: 50%;
+    text-align: center;
+	background-color: #fff;
+	max-height: 30em;
+	padding: 10px;
+	border-radius: 1em;
+	color: #000;
+	font-size: 30px;
+	border: 5px solid black;
+	font-family: MyFont;
+}
+
+#myImage{
+	border-radius: 5em;
+	padding: 0px;
+	
+}
+	
+#myImage{
+	margin-top: 5em;
+}	
+
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0 auto;
+}
+
+body{
+background-image: url("background.png");
+background-color: #000;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+color: #fff;
+}
+
+@font-face{
+	font-family: MyFont;
+	src: url('orange juice 2.0.ttf');
+}
